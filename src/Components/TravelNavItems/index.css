@@ -1,0 +1,20 @@
+.travel_nav_items_main_container{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    margin-bottom:25px;
+}
+.item-container{
+    width:60px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    color:#fff;
+    margin-left:10px;
+    cursor: pointer;
+}
+.icons{
+    font-size:22px;
+}

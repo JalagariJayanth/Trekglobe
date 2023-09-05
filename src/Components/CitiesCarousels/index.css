@@ -1,0 +1,25 @@
+.city-carousel-background-container{
+  display: flex;
+  justify-content:center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.city-carousel-main-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width: 90%;
+    max-width: 1110px;
+}
+.city-carousel-main-heading{
+    font-family:"Roboto";
+    font-size:35px;
+    font-weight:500;
+    color: #000;
+}
+.city-carousel-description{
+    font-family:"Roboto";
+    font-size:21px;
+    font-weight:500;
+    color: #000;
+}

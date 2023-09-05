@@ -1,0 +1,178 @@
+.train-blog-main-background-container{
+    background-image:url("https://res.cloudinary.com/dau2bi3nn/image/upload/v1693364132/train_sac0o8.jpg");
+    height:600px;
+    width:100%;
+    padding:100px;
+    background-size:cover;
+    background-position: center;
+    margin-top:0;
+}
+.flight-blog-content-container{
+    margin-top:50px;
+    margin-left:50px;
+    width:90%;
+}
+.flight-blog-content-heading{
+    color:#fff;
+    font-size: 50px; 
+    font-weight: 300; 
+    line-height: 1.2; 
+    margin-bottom:10px;
+}
+.flight-blog-content-description{
+    color:#fff;
+    font-weight:normal;
+    font-weight:30px;
+    font-family:'Roboto', sans-serif;
+    margin-top:30px;
+}
+@media screen and (max-width:768px){
+    .flight-blog-content-container{
+        margin-top:20px;
+        margin-left:10px;
+    }
+    .flight-blog-content-heading{
+        font-size:40px;
+    }
+    .train-blog-main-background-container{
+        padding:20px;
+    }
+}
+.search_input_container {
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+  }
+  @media screen and (max-width:768px){
+    .search_input_container{
+      flex-direction:column;
+  
+    }
+  }
+  .input-field {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-bottom:none;
+    border-top:none;
+    border-right:none;
+  }
+  
+
+  .input-icon {
+    width: 30px;
+    height: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+   
+    cursor: pointer;
+  }
+  @media screen and (max-width:768px){
+    .input-icon{
+      display:none;
+    }
+  }
+  
+
+  .btn-submit {
+    height: 40px;
+    padding: 0 20px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .powered_by{
+    margin-top:50px;
+    color:#fff;
+  }
+  @media screen and (max-width:768px){
+    .powered_by{
+        text-align:center;
+    }
+  }
+
+.train_item_main_container{
+    background-color:#dbf3fa;
+    display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.train_items_main_container{
+    width:45%;
+}
+@media screen and (max-width:768px){
+    .train_items_main_container{
+        width:85%;
+    }
+}
+
+.train_item_main_background_container{
+    width:100%;
+  margin-bottom: 3px;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border-radius:5px;
+  padding:20px;
+  margin-bottom:20px;
+}
+.train_item_main_heading_train_name{
+    text-align:center;
+  font-size:19px;
+  font-family:"Roboto";
+  font-weight:600;
+  padding-bottom:10px;
+}
+@media screen and (max-width:768px){
+    .train_item_main_heading_train_name{
+        font-size:17px;
+    }
+}
+
+
+.train_item_arr_dep_main_container{
+    display:flex;
+    justify-content:space-between;
+}
+.train_item_destination_points{
+    font-size:17px;
+    font-family:"Roboto";
+    font-weight:500;
+}
+.train_item_button{
+    outline:none;
+  border:1px solid #ffc107;
+  background-color:transparent;
+  color:#ffc107;
+  padding:6px;
+  cursor: pointer;
+  border-radius:5px;
+  font-size:15px;
+  font-family:"Roboto";
+}
+.train_item_button:hover{
+    background-color:#ffc107;
+    color: #fff;
+
+}
+.ticket_error_main_bg_container{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .ticket_error_image{
+    width:300px;
+    height:300px
+  }
